@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "aciGroupName": { "value": "iomegaacigroup" },
+    "image": { "value": "iomegacontainerregistry.azurecr.io/productrestserviceswin:latest" },
+    "port": { "value": "80" },
+    "aspNetCoreUrls": { "value": "http://*:8080" },
+    "productsDBConnectionString": { "value": "ZGF0YSBzb3VyY2U9aW9tZWdhc3Fsc2VydmVydjIuZGF0YWJhc2Uud2luZG93cy5uZXQ7dXNlciBpZD1pb21lZ2FhZG1pbjtwYXNzd29yZD1QcmVzdGlnZTEyMztpbml0aWFsIGNhdGFsb2c9aW9tZWdhc3FsZGF0YWJhc2U7" },
+    "registryServerName": { "value": "iomegacontainerregistry.azurecr.io" },
+    "registryUserName": { "value": "iomegacontainerregistry" },
+    "registryPassword": { "value": "On6jxxyFKjAWlJxpk5UNEBpoyO0+8odK" }
+  }
+}
